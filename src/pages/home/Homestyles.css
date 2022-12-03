@@ -208,14 +208,14 @@
   width: 25px;
   transition: all 0.5s cubic-bezier(0, 1, 0, 1);
 }
-.item .answers {
+.answers {
   max-height: 0;
   overflow: hidden;
   transition: all 0.5s cubic-bezier(0, 1, 0, 1);
 }
-.item .answers .show {
+.show {
   height: auto;
-  max-height: 99999px;
+  max-height: 999px;
   transition: all 0.5s cubic-bezier(1, 0, 1, 0);
 }
 .reverse {

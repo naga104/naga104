@@ -13,12 +13,17 @@ const Navbar = () => {
     if (window.scrollY >= 200) {
       setColor(true);
     }
+    if (window.scrollY < 200) {
+      setColor(false);
+    }
   };
   window.addEventListener("scroll", handleColor);
   return (
     <nav className={color ? "color" : ""}>
       <div className="logo">
-        <h1>GLX TRVL</h1>
+        <Link to="/">
+          <h1>GLX TRVL</h1>
+        </Link>
       </div>
       <div className={click ? "menu active" : "menu"}>
         <Link to="/">Home</Link>
