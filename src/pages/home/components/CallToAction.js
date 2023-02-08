@@ -9,7 +9,7 @@ const CallToAction = () => {
   return (
     <>
       <section className="call-to-action">
-        <h2>Hurry Up Book Your Ticket</h2>
+        <h2>Core Networking Servies</h2>
         <button to="/pricing" onClick={handleClick}>
           Know More!
         </button>

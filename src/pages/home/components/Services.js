@@ -1,17 +1,17 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import img1 from "../../../assests/c1.jpg";
-import img2 from "../../../assests/c2.jpg";
-import img3 from "../../../assests/c3.jpg";
-import img4 from "../../../assests/c4.jpg";
+import img1 from "../../../assests/bank.png"
+import img2 from "../../../assests/bank2.jpg";
+// import img3 from "../../../assests/bank3.jpg";
+import img4 from "../../../assests/telecom.jpg";
 
 import Slider from "react-slick";
 
 import React from "react";
 
 const Services = () => {
-  const images = [img1, img2, img3, img4, img1, img2, img3];
+  const images = [img1, img2,  img4, img1, img2, ];
 
   const settings = {
     dots: false,

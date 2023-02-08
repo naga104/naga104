@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import fb from "../../assests/fb.png";
 import insta from "../../assests/insta.png";
 import twitter from "../../assests/twitter.png";
+import image1 from "../../assests/Celcom.png"
 
 import "./Footer.css";
 
@@ -12,14 +13,14 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <h1>GLX TRVL</h1>
+        <img src={image1} alt=""/>
         <div className="links">
           <h3>Useful Links</h3>
           <div className="link">
             <Link to="/">Home</Link>
-            <Link to="traing">Training</Link>
-            <Link to="pricing">Pricing</Link>
-            <Link to="contact">Contact</Link>
+            <Link to="/telecom">Telecom</Link>
+            <Link to="/bfsi">BFSI</Link>
+            <Link to="/contact">Contact</Link>
           </div>
         </div>
         <div className="social">
