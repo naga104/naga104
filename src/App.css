@@ -6,7 +6,7 @@
  
 }
 body {
-  background-color: rgb(26, 25, 25);
+  background-color: rgb(248, 242, 242);
 
 }
 h1,
@@ -20,7 +20,7 @@ a,
 p,
 li,
 button {
-  color: white;
+  color: rgb(24, 22, 22);
   font-family: "Outfit", sans-serif;
 }
 li {

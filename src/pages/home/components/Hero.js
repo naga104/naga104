@@ -1,5 +1,5 @@
 import React from "react";
-import video from "../../../assests/Pexels Videos 1851190.mp4";
+import video from "../../../assests/network.mp4";
 import image from "../../../assests/Celcom.png"
 
 const Hero = () => {

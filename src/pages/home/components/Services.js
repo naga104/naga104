@@ -4,14 +4,14 @@ import "slick-carousel/slick/slick-theme.css";
 import img1 from "../../../assests/bank.png"
 import img2 from "../../../assests/bank2.jpg";
 // import img3 from "../../../assests/bank3.jpg";
-import img4 from "../../../assests/telecom.jpg";
+// import img4 from "../../../assests/telecom.jpg";
 
 import Slider from "react-slick";
 
 import React from "react";
 
 const Services = () => {
-  const images = [img1, img2,  img4, img1, img2, ];
+  const images = [img1, img2, img1, img2, ];
 
   const settings = {
     dots: false,

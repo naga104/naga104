@@ -1,6 +1,4 @@
 import React from 'react'
-import { Table, Thead, Tbody, Tr, Th, Td } from 'react-super-responsive-table';
-import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css';
 
 const CoreServies = () => {
     return (
@@ -11,32 +9,21 @@ const CoreServies = () => {
                 <div className="content">
 
 
-                    <Table>
-                        <Thead>
-                            <Tr>
-                                <Th>Core Networking Servies</Th>
-                                <Th>Date</Th>
-                                <Th>Location</Th>
-                            </Tr>
-                        </Thead>
-                        <Tbody>
-                            <Tr>
-                                <Td>Products</Td>
-                                <Td>9 April 2019</Td>
-                                <Td>East Annex</Td>
-                            </Tr>
-                            <Tr>
-                                <Td>serives </Td>
-                                <Td>19 May 2019</Td>
-                                <Td>205 Gorgas</Td>
-                            </Tr>
-                            <Tr>
-                                <Td>Tuscaloosa D3</Td>
-                                <Td>29 June 2019</Td>
-                                <Td>Github</Td>
-                            </Tr>
-                        </Tbody>
-                    </Table>
+                    <h1>Core Networking Servies</h1>
+                    <p>
+                        Telecommunications are the means of electronic transmission of information over distances.
+                        The information may be in the form of voice telephone calls, data, text, images, or video.
+                        Today, telecommunications are used to organize
+                        more or less remote computer systems into telecommunications networks.
+
+                    </p>
+                    <p>
+                        Telecommunications are the means of electronic transmission of information over distances.
+                        The information may be in the form of voice telephone calls, data, text, images, or video.
+                        Today, telecommunications are used to organize
+                        more or less remote computer systems into telecommunications networks.
+
+                    </p>
                 </div>
             </section>
         </>
