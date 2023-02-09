@@ -1,11 +1,11 @@
 import React from 'react'
 
-import Navbar from '../../../components/Navbar/Navbar';
+// import Navbar from '../../../components/Navbar/Navbar';
 
 const Bfsi = () => {
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
 
             <h1 className="heading">BFSI</h1>
             <section className="about">

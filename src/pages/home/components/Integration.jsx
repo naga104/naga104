@@ -1,11 +1,11 @@
 import React from 'react'
 
-import Navbar from '../../../components/Navbar/Navbar';
+// import Navbar from '../../../components/Navbar/Navbar';
 
 const Integration = () => {
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
 
             <h1 className="heading">Integration Servies</h1>
             <section className="about">
