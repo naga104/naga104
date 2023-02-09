@@ -1,37 +1,18 @@
 import React from 'react'
+import Footer from '../../../components/Footer/Footer'
+import Bank from './Bank'
+import Navabar from './Navabar'
 
-// import Navbar from '../../../components/Navbar/Navbar';
+
 
 const Bfsi = () => {
     return (
         <>
-            {/* <Navbar /> */}
-
-            <h1 className="heading">BFSI</h1>
-            <section className="about">
-                <img src={require("../../../assests/BFSI.png")} alt="" />
-                <div className="content">
-
-
-                    <h1>BFSI</h1>
-                    <p>
-                        Telecommunications are the means of electronic transmission of information over distances.
-                        The information may be in the form of voice telephone calls, data, text, images, or video.
-                        Today, telecommunications are used to organize
-                        more or less remote computer systems into telecommunications networks.
-
-                    </p>
-                    <p>
-                        Telecommunications are the means of electronic transmission of information over distances.
-                        The information may be in the form of voice telephone calls, data, text, images, or video.
-                        Today, telecommunications are used to organize
-                        more or less remote computer systems into telecommunications networks.
-
-                    </p>
-                </div>
-            </section>
-
+            <Navabar/>
+            <Bank/>
+            <Footer/>
         </>
+    
     )
 }
 

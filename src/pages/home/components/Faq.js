@@ -5,7 +5,7 @@ const Faq = () => {
     {
       question: "What is telecommunications (telecom)?",
       answer:
-        "Telecommunications, also known as telecom, is the exchange of information over significant distances by electronic means and refers to all types of voice, data and video transmission."
+        "Telecommunications, also known as telecom, is the exchange of information over significant distances by electronic means and refers to all types of voice, data and video transmission information over significant."
     },
     {
       question: "What is Banking, financial services and insurance (BFSI) ?",
