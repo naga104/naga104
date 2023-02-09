@@ -3,9 +3,11 @@ import React from "react";
 const Form = () => {
   return (
     <>
-      <h1 className="heading">Form</h1>
+      
       <section className="container">
+    
         <form>
+        <h1 className="heading">Form</h1>
           <div className="field">
             <p>Name</p>
             <input type="text" />
