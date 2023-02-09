@@ -141,6 +141,7 @@
   padding: 10px 40px;
   background-color: transparent;
   border: 1px solid rgb(139, 138, 138);
+  margin-bottom: 5px;
 }
 
 @media (max-width: 800px) {
@@ -168,14 +169,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(122, 120, 120);
+  background-color: rgb(170, 166, 166);
  
 }
 
 .overlay .modal {
   width: 600px;
   height: 400px;
-  background-color: #b8b4b4;
+  background-color: #e7e1e1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -215,7 +216,7 @@
 .faq {
   width: 100%;
   padding: 10px 150px;
-  border: 1px solid rgb(202, 200, 200);
+  border: 1px solid rgb(221, 218, 218);
   /* margin-bottom: 10px; */
 }
 
@@ -234,7 +235,7 @@
   align-items: center;
   gap: 20px;
   flex-direction: column;
-  background-color: rgb(122, 120, 120);
+  background-color: rgb(167, 163, 163);
   padding: 20px 30px;
 }
 

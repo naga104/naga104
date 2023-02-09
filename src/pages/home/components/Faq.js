@@ -3,24 +3,24 @@ import React, { useState } from "react";
 const Faq = () => {
   const data = [
     {
-      question: "Question 1",
+      question: "What is telecommunications (telecom)?",
       answer:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos facere cumque saepe recusandae.",
+        "Telecommunications, also known as telecom, is the exchange of information over significant distances by electronic means and refers to all types of voice, data and video transmission."
     },
     {
-      question: "Question 2",
+      question: "What is Banking, financial services and insurance (BFSI) ?",
       answer:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos facere cumque saepe recusandae.",
+        "Banking, financial services and insurance (BFSI) is the industry's umbrella term for companies that provide a range of such financial products or services. This includes universal banks that provide a range of financial services or companies that operate in one or more of these financial sectors",
     },
     {
-      question: "Question 3",
+      question: "What is core network in 5G?",
       answer:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos facere cumque saepe recusandae.",
+        "What is 5G Core? 5G Core (5GC) is the heart of a 5G network, controlling data and control plane operations. The 5G core aggregates data traffic, communicates with UE, delivers essential network services and provides extra layers of security, among other functions",
     },
     {
-      question: "Question 4",
+      question: "What is meant by integration service?",
       answer:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos facere cumque saepe recusandae.",
+        "An integration service is a specialized application with a defined interface and structure that acts as a container for a web services solution. You can integrate applications by using a service-oriented architecture (SOA",
     },
   ];
 

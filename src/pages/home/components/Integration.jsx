@@ -9,7 +9,7 @@ const Integration = () => {
 
             <h1 className="heading">Integration Servies</h1>
             <section className="about">
-                <img src={require("../../../assests/integration.jpg")} alt="" />
+                <img src={require("../../../assests/business.jpg")} alt="" />
                 <div className="content">
                     <h1>Integration Servies</h1>
                     <p>

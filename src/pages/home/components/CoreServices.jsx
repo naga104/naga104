@@ -5,7 +5,7 @@ const CoreServies = () => {
         <>
             <h1 className="heading">Core Networking Servies</h1>
             <section className="about">
-                <img src={require("../../../assests/Network.jpg")} alt="" />
+                <img src={require("../../../assests/networking.jpg")} alt="" />
                 <div className="content">
 
 
