@@ -11,7 +11,7 @@ import Slider from "react-slick";
 import React from "react";
 
 const Services = () => {
-  const images = [img1, img2, img3,img1, img2, ];
+  const images = [img1, img2,img3, img1, img2, ];
 
   const settings = {
     dots: false,
