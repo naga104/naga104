@@ -27,6 +27,7 @@
 }
 .hero .content p{
   color:white;
+  font-size: 1.4rem;
 }
 
 
@@ -65,6 +66,11 @@
 
  
 }
+.about .content p{
+  font-size: 1.2rem;
+
+ 
+}
 
 @media (max-width: 1160px) {
   .content h2 {
@@ -73,7 +79,7 @@
 
   .about .content p {
     line-height: 20px;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -122,7 +128,7 @@
 /***************************** call to action section *****************************/
 .call-to-action {
   width: 100%;
-  background-color: rgb(248, 242, 242);
+  /* background-color: rgb(248, 242, 242); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,6 +189,8 @@
   padding: 20px 50px;
   text-align: center;
   position: relative;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px;
 }
 
 .overlay .modal .cross {
