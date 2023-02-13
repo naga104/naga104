@@ -3,15 +3,13 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
-  height: 10vh;
+  height: 13vh;
   position: fixed;
   z-index: 99999;
   width: 100%;
 }
 .color {
-  background-color:rgb(130, 195, 236);
-
- 
+  background-color: rgb(130, 195, 236);
 }
 nav .hamburger {
   display: none;
@@ -22,16 +20,15 @@ nav .menu {
   align-items: center;
   gap: 30px;
 }
-nav .menu a{
-  color:white;
+nav .menu a {
+  color: white;
   font-size: 1.2rem;
 }
-.logo img{
-  width:13rem;
-  height:100px;
+.logo img {
+  width: 13rem;
+  height: 100px;
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
 
 @media (max-width: 700px) {
