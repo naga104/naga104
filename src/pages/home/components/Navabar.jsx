@@ -8,16 +8,7 @@ const Navabar = () => {
   const handleClick = () => {
     setClick(!click);
   };
-  // const [color, setColor] = useState(false);
-  // const handleColor = () => {
-  //   if (window.scrollY >= 200) {
-  //     setColor(true);
-  //   }
-  //   if (window.scrollY < 200) {
-  //     setColor(false);
-  //   }
-  // };
-  // window.addEventListener("scroll", handleColor);
+
   return (
     <nav className="color">
       <div className="logo">
