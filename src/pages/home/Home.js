@@ -11,6 +11,7 @@ import Bfsi from "./components/Bfsi";
 import CoreServies from "./components/CoreServices";
 import Integration from "./components/Integration";
 import Telecom from "./components/Telecom";
+import Gallery from "./components/Gallery";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <Bfsi />
       <CoreServies />
       <Integration />
+      <Gallery/>
       <Services />
       <CallToAction />
       <Faq />
