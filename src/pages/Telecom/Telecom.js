@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../../components/Footer/Footer";
 import Navabar from "../home/components/Navabar";
-import Coumminication from "./Coumminication";
+import Bss from "./Bss";
 import TestingCards from "./TestingCards";
 
 const Telecom = () => {
@@ -9,7 +9,7 @@ const Telecom = () => {
     <>
       <Navabar />
       <TestingCards />
-      <Coumminication />
+      <Bss />
       <Footer />
     </>
   );

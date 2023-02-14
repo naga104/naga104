@@ -7,7 +7,7 @@ import pic5 from "../../assests/5g.jpg";
 import pic6 from "../../assests/5g.jpg";
 import pic7 from "../../assests/5g.jpg";
 
-const Coumminication = () => {
+const Bss = () => {
   return (
     <>
       <div className="pt-32 px-8 py-8">
@@ -45,7 +45,7 @@ const Coumminication = () => {
   );
 };
 
-export default Coumminication;
+export default Bss;
 function Pictute({ pic, title }) {
   return (
     <div className="campus-col">
