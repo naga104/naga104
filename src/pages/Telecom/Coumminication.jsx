@@ -7,7 +7,7 @@ const Coumminication = () => {
         <h1 className="heading my-6">Telecom</h1>
         <section className="about">
           <img
-            src={require("../../../assests/telecom.jpg")}
+            src={require("../../assests/telecom.jpg")}
             alt=""
             className="rounded-3xl"
           />
