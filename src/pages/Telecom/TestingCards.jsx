@@ -12,7 +12,7 @@ const TestingCards = () => {
     AOS.init();
   }, []);
   return (
-    <div className=" lg:px-20 px-10 lg:py-20 py-10">
+    <div className=" lg:px-20 px-10 lg:py-20 pt-32 py-5">
       <div>
         <Card1
           pic={pic1}
