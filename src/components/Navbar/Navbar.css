@@ -30,6 +30,18 @@ nav .menu a {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+@media (max-width:1050px){
+  nav .menu{
+    gap:40px;
+  }
+  nav .menu a {
+    font-size: 1rem;
+  }
+  .logo img{
+    width:10rem;
+    padding-left: 0.5rem;
+  }
+}
 
 @media (max-width: 700px) {
   nav .hamburger {
