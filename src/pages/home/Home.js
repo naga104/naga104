@@ -7,11 +7,12 @@ import Faq from "./components/Faq";
 import Footer from "../../components/Footer/Footer";
 
 import "../home/Homestyles.css";
-import Bfsi from "../BFSI/Bfsi";
+
 import CoreServies from "./components/CoreServices";
 import Integration from "./components/Integration";
 import Telecom from "../Telecom/Bss";
 import Gallery from "./components/Gallery";
+import Bfsi from "../BFSI/Bfsi";
 
 const Home = () => {
   return (
@@ -19,7 +20,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Telecom />
-      <Bfsi />
+      <Bfsi/>
       <CoreServies />
       <Integration />
       <Gallery />

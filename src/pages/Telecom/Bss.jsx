@@ -17,27 +17,27 @@ const Bss = () => {
         <div className="lg:grid lg:grid-cols-3 gap-8 justify-items-center flex flex-col cursor-pointer">
           <Pictute
             pic={pic1}
-            title="Development of Mobile and Web Apps: Analysis and Design"
+            title=" Analysis and Design"
           />
           <Pictute
             pic={pic2}
-            title="Java with J2EE: Oracle BRM & ECE Implementation"
+            title="Oracle: Oracle BRM & ECE Implementation"
           />
           <Pictute
             pic={pic3}
-            title=".NET: Register Link to Course Content Request"
+            title="Oracle BRM & ECE Upgrade"
           />
           <Pictute
             pic={pic4}
-            title="Tools for Devops SignUp Link to Course Content Request"
+            title="Oracle BRM & ECE Cloud Native Specialization"
           />
           <Pictute
             pic={pic5}
-            title="DBA: Register Link to Course Content Request"
+            title="Oracle BRM & ECE Integration"
           />
           <Pictute
             pic={pic6}
-            title="Test Instruments: SignUp Link to Course Content Request"
+            title="Oracle AIA Implementation"
           />
         </div>
       </div>

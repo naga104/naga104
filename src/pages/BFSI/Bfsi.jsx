@@ -1,13 +1,13 @@
 import React from "react";
-// import Footer from '../../../components/Footer/Footer'
-import Bank from "../home/components/Bank";
 import Navabar from "../home/components/Navabar";
+import Bank from "./Bank";
 
 const Bfsi = () => {
   return (
     <>
       <Navabar />
-      <Bank />
+      <Bank/>
+      
       {/* <Footer/> */}
     </>
   );
