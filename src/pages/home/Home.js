@@ -10,7 +10,7 @@ import "../home/Homestyles.css";
 import Bfsi from "./components/Bfsi";
 import CoreServies from "./components/CoreServices";
 import Integration from "./components/Integration";
-import Telecom from "./components/Telecom";
+import Telecom from "../Telecom/Coumminication";
 import Gallery from "./components/Gallery";
 
 const Home = () => {
@@ -22,7 +22,7 @@ const Home = () => {
       <Bfsi />
       <CoreServies />
       <Integration />
-      <Gallery/>
+      <Gallery />
       <Services />
       <CallToAction />
       <Faq />
