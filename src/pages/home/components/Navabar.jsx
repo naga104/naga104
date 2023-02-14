@@ -27,6 +27,21 @@ const Navabar = () => {
           BFSI
         </Link>
         <Link to="/contact" className="font-medium">
+          Core Networking services
+        </Link>
+        <Link to="/contact" className="font-medium">
+          Integration Services
+        </Link>
+        <Link to="/contact" className="font-medium">
+          Products
+        </Link>
+        <Link to="/contact" className="font-medium">
+          Carrer
+        </Link>
+        <Link to="/contact" className="font-medium">
+          Contact Us
+        </Link>
+        <Link to="/contact" className="font-medium">
           Contact
         </Link>
       </div>

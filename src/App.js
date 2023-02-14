@@ -16,9 +16,11 @@ function App() {
         <ScrollToTop>
           <Routes>
             <Route path="/" element={<Home />} />
+            
+             <Route path="/telecom" element={<Telecom />} />
           
             <Route path="/bfsi" element={<Bfsi />} />
-            <Route path="/telecom" element={<Telecom />} />
+            
            
             <Route path="/contact" element={<Contact />} />
           </Routes>
