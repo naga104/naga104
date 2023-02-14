@@ -9,7 +9,7 @@ nav {
   width: 100%;
 }
 .color {
-  background-color: rgb(130, 195, 236);
+  background-color: #0e2a47;
 }
 nav .hamburger {
   display: none;
@@ -44,7 +44,7 @@ nav .menu a {
     left: -100%;
     flex-direction: column;
     gap: 30px;
-    background-color: rgba(202, 194, 194, 0.9);
+    background-color: #0e2a47;
   }
   .active {
     left: 0;

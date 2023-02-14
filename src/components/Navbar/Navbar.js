@@ -37,7 +37,7 @@ const Navbar = () => {
           BFSI
         </Link>
         <Link to="/contact" className="font-medium">
-          Core Networking services
+          Core Networking 
         </Link>
         <Link to="/contact" className="font-medium">
           Integration Services
@@ -46,10 +46,13 @@ const Navbar = () => {
           Products
         </Link>
         <Link to="/contact" className="font-medium">
-          Carrer
+        Solutions 
         </Link>
         <Link to="/contact" className="font-medium">
-          Contact Us
+          About Us
+        </Link>
+        <Link to="/contact" className="font-medium">
+          Career
         </Link>
       </div>
       <div className="hamburger" onClick={handleClick}>

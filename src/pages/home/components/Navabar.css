@@ -45,7 +45,7 @@ nav .menu a {
     left: -100%;
     flex-direction: column;
     gap: 30px;
-    background-color: rgba(202, 194, 194, 0.9);
+    background-color: #0e2a47;
   }
   .active {
     left: 0;

@@ -36,13 +36,13 @@ const Navabar = () => {
           Products
         </Link>
         <Link to="/contact" className="font-medium">
-          Carrer
+        Solutions 
         </Link>
         <Link to="/contact" className="font-medium">
-          Contact Us
+          About Us
         </Link>
         <Link to="/contact" className="font-medium">
-          Contact
+          Career
         </Link>
       </div>
       <div className="hamburger" onClick={handleClick}>
