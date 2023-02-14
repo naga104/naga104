@@ -17,11 +17,11 @@ const Coumminication = () => {
         <div className="lg:grid lg:grid-cols-3 gap-8 justify-items-center flex flex-col cursor-pointer">
           <Pictute
             pic={pic1}
-            title="Development of Mobile and Web Apps: Sign Up Request link course materials"
+            title="Development of Mobile and Web Apps: Analysis and Design"
           />
           <Pictute
             pic={pic2}
-            title="Java with J2EE: Register Link to Course Content Request"
+            title="Java with J2EE: Oracle BRM & ECE Implementation"
           />
           <Pictute
             pic={pic3}

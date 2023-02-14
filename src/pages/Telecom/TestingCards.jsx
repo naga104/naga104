@@ -19,7 +19,7 @@ const TestingCards = () => {
           title="Development of Applications"
           desc="Application Development
       Internet Development
-      Tools for creating mobile applications include Java, J2EE,.Net, C/C++, C#, SAP, Swift, Unix, and Linux."
+      Analysis and Design."
         />
         <Card2
           pic={pic2}
